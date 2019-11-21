@@ -1,0 +1,3934 @@
+@prefix cs-dbpedia: <http://cs.dbpedia.org/resource/> .
+@prefix lemon: <http://lemon-model.net/lemon#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbnary: <http://kaiko.getalp.org/dbnary#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix mte:   <http://nl.ijs.si/ME/owl/multext-east.owl#> .
+
+ex:sto_numeral_d_loc  a       lemon:LexicalEntry ;
+        rdfs:label            "stech"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_noun_s_voc  a        lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_s_ma_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_p_f_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_p_nom  a          lemon:LexicalEntry ;
+        rdfs:label            "psi"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle_pronoun_s_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "tahle"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral  a        lemon:LexicalEntry ;
+        rdfs:label            "kolikátý"@cs ;
+        lemon:formVariant     ex:kolikátý_numeral_p_mi_nom , ex:kolikátý_numeral_s_mi_dat , ex:kolikátý_numeral_s_mi_gen , ex:kolikátý_numeral_s_ma_nom , ex:kolikátý_numeral_s_mi_voc , ex:kolikátý_numeral_s_n_voc , ex:kolikátý_numeral_s_n_dat , ex:kolikátý_numeral_s_n_ins , ex:kolikátý_numeral_p_ma_ins , ex:kolikátý_numeral_s_ma_ins , ex:kolikátý_numeral_s_ma_loc , ex:kolikátý_numeral_s_n_gen , ex:kolikátý_numeral_s_f_dat , ex:kolikátý_numeral_p_ma_gen , ex:kolikátý_numeral_s_f_gen , ex:kolikátý_numeral_s_f_voc , ex:kolikátý_numeral_p_mi_gen , ex:kolikátý_numeral_s_mi_nom , ex:kolikátý_numeral_s_mi_ins , ex:kolikátý_numeral_p_ma_voc , ex:kolikátý_numeral_p_n_loc , ex:kolikátý_numeral_p_f_loc , ex:kolikátý_numeral_p_mi_loc , ex:kolikátý_numeral_p_ma_loc , ex:kolikátý_numeral_p_n_dat , ex:kolikátý_numeral_p_mi_acc , ex:kolikátý_numeral_p_n_gen , ex:kolikátý_numeral_p_f_dat , ex:kolikátý_numeral_p_f_voc , ex:kolikátý_numeral_p_f_ins , ex:kolikátý_numeral_p_n_voc , ex:kolikátý_numeral_s_ma_acc , ex:kolikátý_numeral_p_n_ins , ex:kolikátý_numeral_p_n_acc , ex:kolikátý_numeral_p_f_gen , ex:kolikátý_numeral_s_n_nom , ex:kolikátý_numeral_s_n_loc , ex:kolikátý_numeral_s_mi_loc , ex:kolikátý_numeral_s_f_ins , ex:kolikátý_numeral_p_ma_acc , ex:kolikátý_numeral_s_ma_dat , ex:kolikátý_numeral_p_mi_dat , ex:kolikátý_numeral_s_f_nom , ex:kolikátý_numeral_s_f_loc , ex:kolikátý_numeral_s_f_acc , ex:kolikátý_numeral_p_ma_nom , ex:kolikátý_numeral_s_ma_voc , ex:kolikátý_numeral_p_n_nom , ex:kolikátý_numeral_s_mi_acc , ex:kolikátý_numeral_s_n_acc , ex:kolikátý_numeral_s_ma_gen , ex:kolikátý_numeral_p_f_nom , ex:kolikátý_numeral_p_mi_ins , ex:kolikátý_numeral_p_mi_voc , ex:kolikátý_numeral_p_ma_dat , ex:kolikátý_numeral_p_f_acc ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:já   a                      dbnary:Page ;
+        rdfs:label             "já"@cs ;
+        dbnary:describes       ex:já_pronoun , ex:já_noun ;
+        lexinfo:pronunciation  "jaː" .
+
+ex:takový_pronoun_p_n_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovými"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_imp_p_2_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jděte"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:sršeň_noun_s_nom  a        lemon:LexicalEntry ;
+        rdfs:label            "sršeň"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jít_verb_tra_pas_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šedše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:za_preposition  a          lemon:LexicalEntry ;
+        rdfs:label            "za"@cs ;
+        lexinfo:partOfSpeech  lexinfo:preposition .
+
+ex:mladý_adjective_p_f_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladými"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:blízko_noun_s_acc  a       lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_act_p  a          lemon:LexicalEntry ;
+        rdfs:label            "byla"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:sto_numeral_p_voc  a       lemon:LexicalEntry ;
+        rdfs:label            "sta"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_act_s_n  a        lemon:LexicalEntry ;
+        rdfs:label            "šlo"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:kolikátý_numeral_p_ma_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátí"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_p_loc  a          lemon:LexicalEntry ;
+        rdfs:label            "psech"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_s_mi_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovému"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_ind_pre_s_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdeš"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:já_pronoun_acc_2  a        lemon:LexicalEntry ;
+        rdfs:label            "mne"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:tahle_pronoun_s_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "téhle"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_p_f_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátými"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_s_n_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jíst_verb_ind_pre_p_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jíme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:sršeň_noun_s_loc  a        lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jíst_verb_act_s_f  a       lemon:LexicalEntry ;
+        rdfs:label            "jedla"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:jít_verb_imp_p_1  a        lemon:LexicalEntry ;
+        rdfs:label            "pojďme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:mladý_adjective_p_mi_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jít_verb_tra_pre_p_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:kolikátý_numeral_s_n_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_p_n_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_s_n_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mládo"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:neuter ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:blízko_noun_s_voc  a       lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_s_f_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovou"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_n_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladém"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sto_numeral_s_dat  a       lemon:LexicalEntry ;
+        rdfs:label            "stu"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:čtyři_numeral  a           lemon:LexicalEntry ;
+        rdfs:label            "čtyři"@cs ;
+        lemon:formVariant     ex:čtyři_numeral_dat , ex:čtyři_numeral_loc , ex:čtyři_numeral_nom , ex:čtyři_numeral_gen , ex:čtyři_numeral_gen_2 , ex:čtyři_numeral_ins_2 , ex:čtyři_numeral_voc , ex:čtyři_numeral_acc , ex:čtyři_numeral_ins ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_s_acc  a          lemon:LexicalEntry ;
+        rdfs:label            "psa"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_con_p_3  a        lemon:LexicalEntry ;
+        rdfs:label            "by"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:verbFormMood  lexinfo:conditional .
+
+ex:být_verb_tra_pas_s_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byvši"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:jíst_verb_pas_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jeden"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:kolikátý_numeral_s_n_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátém"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_s_ma_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladého"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:čtyři_numeral_acc  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyři"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_poz
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:degree        lexinfo:positive ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_p_mi_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:peso_noun_p_acc  a         lemon:LexicalEntry ;
+        rdfs:label            "pesa"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_ma_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takoví"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_p_mi_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_p_voc_2  a        lemon:LexicalEntry ;
+        rdfs:label            "psové"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:pes_noun_s_voc  a          lemon:LexicalEntry ;
+        rdfs:label            "pse"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_f_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:vždyť_conjunction  a       lemon:LexicalEntry ;
+        rdfs:label            "vždyť"@cs ;
+        lexinfo:partOfSpeech  lexinfo:conjunction .
+
+ex:čtyři  a                    dbnary:Page ;
+        rdfs:label             "čtyři"@cs ;
+        dbnary:describes       ex:čtyři_numeral ;
+        lexinfo:pronunciation  "t͡ʃtɪr̝ɪ" .
+
+ex:kolikátý_numeral_p_n_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_p_ma_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:čtyři_numeral_voc  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyři"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_s_ma_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jít_verb  a                lemon:LexicalEntry ;
+        rdfs:label            "jít"@cs ;
+        lemon:formVariant     ex:jít_verb_tra_pre_s_f , ex:jít_verb_tra_pas_p_f , ex:jít_verb_tra_pre_p_mi , ex:jít_verb_tra_pas_p_mi , ex:jít_verb_act_p_mi , ex:jít_verb_act_s_n , ex:jít_verb_tra_pas_p_ma , ex:jít_verb_act_s_mi , ex:jít_verb_imp_p_1 , ex:jít_verb_tra_pas_s_n , ex:jít_verb_tra_pre_s_ma , ex:jít_verb_act_p_ma , ex:jít_verb_ind_fut_s_2 , ex:jít_verb_tra_pas_s_f , ex:jít_verb_pas_p , ex:jít_verb_ind_fut_p_3 , ex:jít_verb_ind_pre_s_2 , ex:jít_verb_tra_pre_p_n , ex:jít_verb_act_p_f , ex:jít_verb_pas_s_ma , ex:jít_verb_tra_pas_p_n , ex:jít_verb_pas_p_f , ex:jít_verb_tra_pre_s_mi , ex:jít_verb_imp_p_2 , ex:jít_verb_pas_p_mi , ex:jít_verb_pas_p_ma , ex:jít_verb_ind_pre_s_3 , ex:jít_verb_ind_pre_p_1 , ex:jít_verb_ind_fut_s_3 , ex:jít_verb_tra_pre_p_ma , ex:jít_verb_pas_s_n , ex:jít_verb_act_s_f , ex:jít_verb_imp_p_2_2 , ex:jít_verb_act_s_ma , ex:jít_verb_ind_fut_p_1 , ex:jít_verb_imp_p_1_2 , ex:jít_verb_tra_pas_s_mi , ex:jít_verb_pas_s_f , ex:jít_verb_pas_s_mi , ex:jít_verb_tra_pas_s_ma , ex:jít_verb_ind_pre_p_3 , ex:jít_verb_imp_s_2 , ex:jít_verb_act_p , ex:jít_verb_imp_s_2_2 , ex:jít_verb_ind_pre_s_1 , ex:jít_verb_tra_pre_p_f , ex:jít_verb_ind_pre_p_2 , ex:jít_verb_ind_fut_s_1 , ex:jít_verb_ind_fut_p_2 , ex:jít_verb_tra_pre_s_n ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:verbFormMood  lexinfo:infinitive .
+
+ex:být_verb_tra_pre_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsa"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:peso_noun_p_voc  a         lemon:LexicalEntry ;
+        rdfs:label            "pesa"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_p_nom_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršňové"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:často_adverb_sup  a        lemon:LexicalEntry ;
+        rdfs:label            "nejčastěji"@cs ;
+        lexinfo:degree        lexinfo:superlative ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:mladý_adjective_p_ma_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mládi"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:animate ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:být_verb_tra_pre_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:takový_pronoun_p_f_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_ind_pre_p_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdeme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jíst_verb_ind_pre_s_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jí"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:kolikátý_numeral_s_ma_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátého"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:vždyť_adverb  a            lemon:LexicalEntry ;
+        rdfs:label            "vždyť"@cs ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:kéž_particle  a            lemon:LexicalEntry ;
+        rdfs:label            "kéž"@cs ;
+        lexinfo:partOfSpeech  lexinfo:particle .
+
+ex:jít_verb_ind_fut_p_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "půjdou"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:kolikátý_numeral_p_mi_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_ind_pre_p_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsou"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:blízko  a                   dbnary:Page ;
+        rdfs:label             "blízko"@cs ;
+        dbnary:describes       ex:blízko_adverb , ex:blízko_preposition , ex:blízko_noun ;
+        lexinfo:pronunciation  "bliːskɔ" .
+
+ex:být_verb_ind_fut_s_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "budu"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:super_adverb  a            lemon:LexicalEntry ;
+        rdfs:label            "super"@cs ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:kolikátý_numeral_p_n_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátými"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_noun_p_dat  a        lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_act_s_ma  a       lemon:LexicalEntry ;
+        rdfs:label            "byl"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:jít_verb_pas_s_n  a        lemon:LexicalEntry ;
+        rdfs:label            "jito"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:mladý_adjective_s_mi_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladému"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jíst_verb_act_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedl"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:peso_noun  a               lemon:LexicalEntry ;
+        rdfs:label            "peso"@cs ;
+        lemon:formVariant     ex:peso_noun_s_loc , ex:peso_noun_s_ins , ex:peso_noun_s_voc , ex:peso_noun_p_ins , ex:peso_noun_p_acc , ex:peso_noun_p_nom , ex:peso_noun_p_gen , ex:peso_noun_s_gen , ex:peso_noun_s_nom , ex:peso_noun_p_dat , ex:peso_noun_p_voc , ex:peso_noun_s_dat , ex:peso_noun_s_acc , ex:peso_noun_p_loc ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle  a                    dbnary:Page ;
+        rdfs:label             "tahle"@cs ;
+        dbnary:describes       ex:tahle_pronoun ;
+        lexinfo:pronunciation  "taɦlɛ" .
+
+ex:sršeň_noun_s_nom_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršeň"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_f_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlády"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:feminine ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:jíst_verb_tra_pre_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jeda"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:jíst_verb_pas_s_f  a       lemon:LexicalEntry ;
+        rdfs:label            "jedena"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:kolikátý_numeral_s_ma_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_s_ma_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takového"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sto  a                      dbnary:Page ;
+        rdfs:label             "sto"@cs ;
+        dbnary:describes       ex:sto_numeral ;
+        lexinfo:pronunciation  "stɔ" .
+
+ex:peso_noun_s_gen  a         lemon:LexicalEntry ;
+        rdfs:label            "pesa"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_n_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "taková"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_p_f_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jít_verb_act_p  a          lemon:LexicalEntry ;
+        rdfs:label            "šla"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_s_n_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takového"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_s_mi_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátému"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_p_ma_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladí"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_s_f_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sršeň_noun  a              lemon:LexicalEntry ;
+        rdfs:label            "sršeň"@cs ;
+        lemon:formVariant     ex:sršeň_noun_s_loc , ex:sršeň_noun_s_loc_3 , ex:sršeň_noun_s_nom , ex:sršeň_noun_s_gen , ex:sršeň_noun_p_dat_2 , ex:sršeň_noun_p_dat , ex:sršeň_noun_s_acc , ex:sršeň_noun_p_loc_2 , ex:sršeň_noun_p_voc_2 , ex:sršeň_noun_s_acc_2 , ex:sršeň_noun_s_ins_2 , ex:sršeň_noun_s_voc_2 , ex:sršeň_noun_s_dat_2 , ex:sršeň_noun_p_nom , ex:sršeň_noun_s_voc , ex:sršeň_noun_p_loc , ex:sršeň_noun_p_acc_2 , ex:sršeň_noun_s_gen_2 , ex:sršeň_noun_p_voc_3 , ex:sršeň_noun_s_dat , ex:sršeň_noun_s_dat_3 , ex:sršeň_noun_p_nom_2 , ex:sršeň_noun_p_nom_3 , ex:sršeň_noun_s_ins , ex:sršeň_noun_p_ins , ex:sršeň_noun_p_gen , ex:sršeň_noun_s_nom_2 , ex:sršeň_noun_p_voc , ex:sršeň_noun_p_ins_2 , ex:sršeň_noun_s_loc_2 , ex:sršeň_noun_p_gen_2 , ex:sršeň_noun_p_acc ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:feminine , lexinfo:masculine ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_s_acc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral_d_dat  a       lemon:LexicalEntry ;
+        rdfs:label            "stům"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:tahle_pronoun_p_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "těchhle"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_act_p  a         lemon:LexicalEntry ;
+        rdfs:label            "jedla"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:kolikátý_numeral_p_f_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_ind_pre_s_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jde"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:sršeň_noun_p_gen  a        lemon:LexicalEntry ;
+        rdfs:label            "sršní"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_mi_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_ind_pre_p_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jíte"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:já_pronoun_nom  a          lemon:LexicalEntry ;
+        rdfs:label            "já"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_s_f_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jíst_verb_tra_pre_s_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedouc"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:jít_verb_imp_p_2  a        lemon:LexicalEntry ;
+        rdfs:label            "pojďte"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:jít  a                      dbnary:Page ;
+        rdfs:label             "jít"@cs ;
+        dbnary:describes       ex:jít_verb ;
+        lexinfo:pronunciation  "jiːt" .
+
+ex:mladý_noun_s_nom  a        lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:peso_noun_s_ins  a         lemon:LexicalEntry ;
+        rdfs:label            "pesem"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_ma_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:pes  a                      dbnary:Page ;
+        rdfs:label             "pes"@cs ;
+        rdfs:seeAlso           cs-dbpedia:Pes_domácí ;
+        dbnary:describes       ex:pes_noun_2 , ex:pes_noun ;
+        lexinfo:pronunciation  "pɛs" .
+
+ex:být_verb_tra_pre_p_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:mladý_adjective_p_f_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_s_n_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_pas_s_mi  a       lemon:LexicalEntry ;
+        rdfs:label            "jit"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:mladý_adjective_s_f_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladou"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:často_adverb_poz  a        lemon:LexicalEntry ;
+        rdfs:label            "často"@cs ;
+        lexinfo:degree        lexinfo:positive ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:jít_verb_tra_pas_p_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šedše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:já_pronoun_loc  a          lemon:LexicalEntry ;
+        rdfs:label            "mně"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:za   a                      dbnary:Page ;
+        rdfs:label             "za"@cs ;
+        dbnary:describes       ex:za_preposition ;
+        lexinfo:pronunciation  "za" .
+
+ex:být  a                      dbnary:Page ;
+        rdfs:label             "být"@cs ;
+        dbnary:describes       ex:být_verb ;
+        lexinfo:pronunciation  "biːt" .
+
+ex:jíst_verb_tra_pre_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:pes_noun_p_dat  a          lemon:LexicalEntry ;
+        rdfs:label            "psům"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_p_f_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:tahle_pronoun_p_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "těmihle"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_noun_s_loc  a        lemon:LexicalEntry ;
+        rdfs:label            "mladém"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle_pronoun_s_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "téhle"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:být_verb_act_s_f  a        lemon:LexicalEntry ;
+        rdfs:label            "byla"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:sršeň_noun_p_ins  a        lemon:LexicalEntry ;
+        rdfs:label            "sršněmi"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral_p_nom  a       lemon:LexicalEntry ;
+        rdfs:label            "sta"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sršeň_noun_s_dat  a        lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_p_ma_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátí"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_s_f_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátou"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý  a                 dbnary:Page ;
+        rdfs:label             "kolikátý"@cs ;
+        dbnary:describes       ex:kolikátý_numeral ;
+        lexinfo:pronunciation  "kɔlɪkaːtiː" .
+
+ex:ach  a                      dbnary:Page ;
+        rdfs:label             "ach"@cs ;
+        dbnary:describes       ex:ach_interjection ;
+        lexinfo:pronunciation  "ax" .
+
+ex:mladý_adjective_s_n_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladému"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sto_numeral_p_loc  a       lemon:LexicalEntry ;
+        rdfs:label            "stech"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_p_ma_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:blízko_noun_s_nom  a       lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:blízko_preposition
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lexinfo:partOfSpeech  lexinfo:preposition .
+
+ex:mladý_adjective_s_ma_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladého"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_s_n_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátému"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:blízko_adverb  a           lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lemon:formVariant     ex:blízko_adverb_sup_2 , ex:blízko_adverb_sup , ex:blízko_adverb_kom_2 , ex:blízko_adverb_kom , ex:blízko_adverb_poz ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:sršeň_noun_p_voc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle_pronoun  a           lemon:LexicalEntry ;
+        rdfs:label            "tahle"@cs ;
+        lemon:formVariant     ex:tahle_pronoun_p_gen , ex:tahle_pronoun_s_loc , ex:tahle_pronoun_p_loc , ex:tahle_pronoun_s_dat , ex:tahle_pronoun_s_ins , ex:tahle_pronoun_p_acc , ex:tahle_pronoun_p_nom , ex:tahle_pronoun_p_dat , ex:tahle_pronoun_p_ins , ex:tahle_pronoun_s_gen , ex:tahle_pronoun_s_acc , ex:tahle_pronoun_s_nom ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:být_verb_imp_s_2_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "budiž"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:jít_verb_ind_pre_p_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdete"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:blízko_noun_s_loc  a       lemon:LexicalEntry ;
+        rdfs:label            "blízku"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jít_verb_tra_pre_s_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdouc"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:mladý_adjective_p_mi_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_s_mi_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takového"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:být_verb_ind_fut_s_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "budeš"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jíst_verb_act_p_f  a       lemon:LexicalEntry ;
+        rdfs:label            "jedly"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:jít_verb_act_s_ma  a       lemon:LexicalEntry ;
+        rdfs:label            "šel"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:kolikátý_numeral_p_n_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátá"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_pas_p_ma  a       lemon:LexicalEntry ;
+        rdfs:label            "jiti"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:takový_pronoun_s_f_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "taková"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_act_p_mi  a       lemon:LexicalEntry ;
+        rdfs:label            "šly"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:mladý_adjective_s_ma_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_p_ma_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sto_numeral_d_acc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "stě"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_s_nom  a          lemon:LexicalEntry ;
+        rdfs:label            "pes"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_mi_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jít_verb_imp_s_2_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdi"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:mladý_adjective_p_n_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_p_f_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_n_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mládo"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:neuter ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:čtyři_numeral_nom  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyři"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_s_ma_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátého"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý  a                    dbnary:Page ;
+        rdfs:label             "mladý"@cs ;
+        dbnary:describes       ex:mladý_adjective , ex:mladý_noun ;
+        lexinfo:pronunciation  "mladiː" .
+
+ex:sto_numeral_s_gen  a       lemon:LexicalEntry ;
+        rdfs:label            "sta"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_s_f_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_ma_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlád"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:animate ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:peso_noun_p_nom  a         lemon:LexicalEntry ;
+        rdfs:label            "pesa"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_tra_pas_p_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byvše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:takový_pronoun_s_mi_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:pes_noun_s_loc  a          lemon:LexicalEntry ;
+        rdfs:label            "psovi"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_p_n_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátá"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb  a                lemon:LexicalEntry ;
+        rdfs:label            "být"@cs ;
+        lemon:formVariant     ex:být_verb_tra_pas_p_n , ex:být_verb_ind_pre_p_3 , ex:být_verb_imp_p_1 , ex:být_verb_tra_pas_s_ma , ex:být_verb_tra_pas_s_mi , ex:být_verb_tra_pre_p_ma , ex:být_verb_act_p_mi , ex:být_verb_tra_pas_p_ma , ex:být_verb_imp_p_1_2 , ex:být_verb_tra_pre_p_n , ex:být_verb_ind_fut_s_1 , ex:být_verb_tra_pas_p_f , ex:být_verb_imp_s_2 , ex:být_verb_con_s_3 , ex:být_verb_con_s_2 , ex:být_verb_act_s_f , ex:být_verb_ind_fut_s_2 , ex:být_verb_ind_pre_s_2 , ex:být_verb_ind_pre_s_1 , ex:být_verb_act_p_f , ex:být_verb_ind_pre_p_1 , ex:být_verb_tra_pas_s_n , ex:být_verb_act_s_mi , ex:být_verb_tra_pas_p_mi , ex:být_verb_con_p_2 , ex:být_verb_con_p_1 , ex:být_verb_imp_s_2_2 , ex:být_verb_ind_fut_p_1 , ex:být_verb_tra_pre_s_mi , ex:být_verb_tra_pas_s_f , ex:být_verb_tra_pre_p_mi , ex:být_verb_ind_fut_s_3 , ex:být_verb_tra_pre_s_f , ex:být_verb_tra_pre_s_n , ex:být_verb_imp_p_2_2 , ex:být_verb_ind_pre_s_3 , ex:být_verb_tra_pre_s_ma , ex:být_verb_imp_p_2 , ex:být_verb_ind_pre_p_2 , ex:být_verb_act_p_ma , ex:být_verb_ind_fut_p_2 , ex:být_verb_tra_pre_p_f , ex:být_verb_con_p_3 , ex:být_verb_act_s_n , ex:být_verb_con_s_1 , ex:být_verb_act_s_ma , ex:být_verb_act_p , ex:být_verb_ind_fut_p_3 ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:verbFormMood  lexinfo:infinitive .
+
+ex:kolikátý_numeral_p_mi_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:čtyři_numeral_loc  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyřech"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_tra_pre_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jda"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:peso_noun_p_loc  a         lemon:LexicalEntry ;
+        rdfs:label            "pesech"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jíst_verb_pas_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedeny"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:mladý_adjective_p_n_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladými"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_s_ma_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátý"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sto_numeral_s_ins  a       lemon:LexicalEntry ;
+        rdfs:label            "stem"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_p_mi_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_tra_pas_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byv"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:být_verb_imp_s_2  a        lemon:LexicalEntry ;
+        rdfs:label            "buď"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:ale_conjunction  a         lemon:LexicalEntry ;
+        rdfs:label            "ale"@cs ;
+        lexinfo:partOfSpeech  lexinfo:conjunction .
+
+ex:jíst_verb_ind_pre_p_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedí"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:peso_noun_s_acc  a         lemon:LexicalEntry ;
+        rdfs:label            "peso"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_ma_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlády"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:animate ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:být_verb_imp_p_1_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "buďmež"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:být_verb_ind_fut_p_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "budeme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:takový_pronoun_s_n_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:být_verb_tra_pre_s_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsouc"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:mladý_adjective_s_f_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladou"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:tahle_pronoun_p_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "tyhle"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_noun_p_gen  a        lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jít_verb_tra_pas_s_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šedši"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:jíst_verb_imp_s_2  a       lemon:LexicalEntry ;
+        rdfs:label            "jez"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:mladý_adjective_s_mi_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladého"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sršeň_noun_p_acc  a        lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_con_s_1  a        lemon:LexicalEntry ;
+        rdfs:label            "bych"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:conditional .
+
+ex:takový_pronoun_p_mi_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_s_f_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátou"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:ach_interjection  a        lemon:LexicalEntry ;
+        rdfs:label            "ach"@cs ;
+        lexinfo:partOfSpeech  lexinfo:interjection .
+
+ex:jíst_verb_pas_p_f  a       lemon:LexicalEntry ;
+        rdfs:label            "jedeny"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:takový_pronoun_s_ma_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takový"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:peso_noun_s_voc  a         lemon:LexicalEntry ;
+        rdfs:label            "peso"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jít_verb_imp_p_1_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jděme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:sršeň_noun_p_dat_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršňům"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_mi_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_p_ma_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_p_f_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlády"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:feminine ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:být_verb_act_p_ma  a       lemon:LexicalEntry ;
+        rdfs:label            "byli"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:super_adjective  a         lemon:LexicalEntry ;
+        rdfs:label            "super"@cs ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:ale_particle  a            lemon:LexicalEntry ;
+        rdfs:label            "ale"@cs ;
+        lexinfo:partOfSpeech  lexinfo:particle .
+
+ex:jít_verb_tra_pre_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:mladý_adjective_s_f_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladá"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jíst_verb_act_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedli"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_p_n_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "taková"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:já_pronoun_dat  a          lemon:LexicalEntry ;
+        rdfs:label            "mně"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_p_f_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_s_ma_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovém"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:blízko_noun  a             lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lemon:formVariant     ex:blízko_noun_s_voc , ex:blízko_noun_s_dat , ex:blízko_noun_s_gen , ex:blízko_noun_s_nom , ex:blízko_noun_s_ins , ex:blízko_noun_s_acc , ex:blízko_noun_s_loc ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_noun_p_ins  a        lemon:LexicalEntry ;
+        rdfs:label            "mladými"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:pes_noun_s_dat_2  a        lemon:LexicalEntry ;
+        rdfs:label            "psu"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_noun_s_dat  a        lemon:LexicalEntry ;
+        rdfs:label            "mladému"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_p_voc  a        lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_s_mi_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:já_noun  a                 lemon:LexicalEntry ;
+        rdfs:label            "já"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_s_f_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátá"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_tra_pas_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šed"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:mladý_adjective_p_mi_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlády"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:inanimate ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:být_verb_tra_pas_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byvše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:jít_verb_tra_pas_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šedše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:kolikátý_numeral_p_f_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sršeň_noun_p_loc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršních"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_n_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sršeň_noun_p_voc_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršňové"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_f_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_s_mi_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátého"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_imp_p_1  a        lemon:LexicalEntry ;
+        rdfs:label            "buďme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:super  a                    dbnary:Page ;
+        rdfs:label             "super"@cs ;
+        dbnary:describes       ex:super_adverb , ex:super_adjective ;
+        lexinfo:pronunciation  "sʊpɛr" .
+
+ex:ale_noun  a                lemon:LexicalEntry ;
+        rdfs:label            "ale"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_ind_pre_s_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsem"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:já_pronoun_dat_2  a        lemon:LexicalEntry ;
+        rdfs:label            "mi"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_ind_pre_p_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdou"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jít_verb_ind_fut_s_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "půjdu"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:sto_numeral_d_gen  a       lemon:LexicalEntry ;
+        rdfs:label            "set"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sto_numeral_p_dat  a       lemon:LexicalEntry ;
+        rdfs:label            "stům"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective  a         lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lemon:formVariant     ex:mladý_adjective_p_n_voc , ex:mladý_adjective_s_ma_nom , ex:mladý_adjective_s_ma_voc , ex:mladý_adjective_p_ma_ins , ex:mladý_adjective_s_f_acc_nom , ex:mladý_adjective_p_n_nom , ex:mladý_adjective_s_ma_acc_nom , ex:mladý_adjective_s_mi_acc_nom , ex:mladý_adjective_p_mi_acc , ex:mladý_adjective_s_n_gen , ex:mladý_adjective_p_f_nom_nom , ex:mladý_adjective_p_f_loc , ex:mladý_adjective_p_f_nom , ex:mladý_adjective_p_f_voc , ex:mladý_adjective_p_f_acc , ex:mladý_adjective_s_mi_nom , ex:mladý_adjective_s_n_nom , ex:mladý_adjective_p_f_acc_nom , ex:mladý_adjective_s_mi_nom_nom , ex:mladý_adjective_p_ma_nom , ex:mladý_adjective_s_f_gen , ex:mladý_adjective_p_mi_gen , ex:mladý_adjective_p_mi_nom_nom , ex:mladý_adjective_p_ma_acc , ex:mladý_adjective_s_f_dat , ex:mladý_adjective_s_f_loc , ex:mladý_adjective_p_mi_loc , ex:mladý_adjective_s_f_nom , ex:mladý_adjective_p_f_ins , ex:mladý_adjective_s_mi_voc , ex:mladý_adjective_p_ma_acc_nom , ex:mladý_adjective_p_mi_ins , ex:mladý_adjective_s_ma_acc , ex:mladý_adjective_s_mi_ins , ex:mladý_adjective_s_mi_gen , ex:mladý_adjective_p_ma_nom_nom , ex:mladý_adjective_p_n_ins , ex:mladý_adjective_s_ma_nom_nom , ex:mladý_adjective_p_n_dat , ex:mladý_adjective_p_f_dat , ex:mladý_adjective_p_mi_acc_nom , ex:mladý_adjective_p_ma_gen , ex:mladý_adjective_p_n_acc , ex:mladý_adjective_s_mi_acc , ex:mladý_adjective_s_n_acc_nom , ex:mladý_adjective_p_n_loc , ex:mladý_adjective_s_f_nom_nom , ex:mladý_adjective_s_n_voc , ex:mladý_adjective_kom , ex:mladý_adjective_s_n_acc , ex:mladý_adjective_s_n_dat , ex:mladý_adjective_s_n_ins , ex:mladý_adjective_s_n_loc , ex:mladý_adjective_s_f_voc , ex:mladý_adjective_p_n_acc_nom , ex:mladý_adjective_p_n_nom_nom , ex:mladý_adjective_p_f_gen , ex:mladý_adjective_p_mi_dat , ex:mladý_adjective_sup , ex:mladý_adjective_poz , ex:mladý_adjective_s_mi_dat , ex:mladý_adjective_s_n_nom_nom , ex:mladý_adjective_s_mi_loc , ex:mladý_adjective_p_mi_nom , ex:mladý_adjective_p_mi_voc , ex:mladý_adjective_p_n_gen , ex:mladý_adjective_s_ma_gen , ex:mladý_adjective_s_ma_ins , ex:mladý_adjective_s_ma_dat , ex:mladý_adjective_s_ma_loc , ex:mladý_adjective_p_ma_dat , ex:mladý_adjective_p_ma_loc , ex:mladý_adjective_s_f_ins , ex:mladý_adjective_p_ma_voc , ex:mladý_adjective_s_f_acc ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_p_ma_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jíst_verb_tra_pre_p_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:kolikátý_numeral_p_f_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_ind_fut_s_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "bude"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jíst_verb_act_s_n  a       lemon:LexicalEntry ;
+        rdfs:label            "jedlo"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:mladý_adjective_p_n_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mláda"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:neuter ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:sršeň_noun_s_voc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_s_mi_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jíst_verb_imp_p_1  a       lemon:LexicalEntry ;
+        rdfs:label            "jezme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:blízko_noun_s_dat  a       lemon:LexicalEntry ;
+        rdfs:label            "blízku"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_act_p_f  a        lemon:LexicalEntry ;
+        rdfs:label            "byly"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_s_mi_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takový"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:pes_noun_2  a              lemon:LexicalEntry ;
+        rdfs:label            "pes"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral_d_ins  a       lemon:LexicalEntry ;
+        rdfs:label            "sty"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_p_gen  a          lemon:LexicalEntry ;
+        rdfs:label            "psů"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle_pronoun_s_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "téhle"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sršeň_noun_p_ins_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_s_gen  a        lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_mi_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_p_n_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladá"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_s_ma_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_s_n_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladého"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sto_numeral_s_acc  a       lemon:LexicalEntry ;
+        rdfs:label            "sto"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_s_f_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_act_s_f  a        lemon:LexicalEntry ;
+        rdfs:label            "šla"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:pes_noun_p_ins  a          lemon:LexicalEntry ;
+        rdfs:label            "psy"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:pes_noun_s_dat  a          lemon:LexicalEntry ;
+        rdfs:label            "psovi"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle_pronoun_s_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "touhle"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sršeň_noun_s_ins  a        lemon:LexicalEntry ;
+        rdfs:label            "sršní"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_s_n_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátého"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_tra_pre_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsa"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:mladý_adjective_s_ma_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladém"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:čtyři_numeral_dat  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyřem"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_tra_pre_p_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:kolikátý_numeral_p_n_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátá"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sršeň_noun_p_gen_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršňů"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_n_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladá"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:peso_noun_p_dat  a         lemon:LexicalEntry ;
+        rdfs:label            "pesům"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:blízko_adverb_sup_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "nejblíž"@cs ;
+        lexinfo:degree        lexinfo:superlative ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:jít_verb_pas_p  a          lemon:LexicalEntry ;
+        rdfs:label            "jita"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:sto_numeral_s_voc  a       lemon:LexicalEntry ;
+        rdfs:label            "sto"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_s_n_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:být_verb_ind_fut_p_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "budete"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:blízko_adverb_kom_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "blíže"@cs ;
+        lexinfo:degree        lexinfo:comparative ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:kolikátý_numeral_p_mi_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jíst_verb_pas_p  a         lemon:LexicalEntry ;
+        rdfs:label            "jedena"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:kolikátý_numeral_p_n_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_s_ma_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátý"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_tra_pas_s_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byvši"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:být_verb_act_s_mi  a       lemon:LexicalEntry ;
+        rdfs:label            "byl"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_p_ma_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_pas_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jeden"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:kolikátý_numeral_s_n_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_con_s_2  a        lemon:LexicalEntry ;
+        rdfs:label            "bys"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:conditional .
+
+ex:jíst_verb_act_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedl"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_p_f_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_pas_s_n  a       lemon:LexicalEntry ;
+        rdfs:label            "jedeno"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:kolikátý_numeral_s_ma_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátém"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_s_ma_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mláda"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:animate ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:já_pronoun_gen_2  a        lemon:LexicalEntry ;
+        rdfs:label            "mne"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:já_pronoun  a              lemon:LexicalEntry ;
+        rdfs:label            "já"@cs ;
+        lemon:formVariant     ex:já_pronoun_loc , ex:já_pronoun_acc_2 , ex:já_pronoun_nom , ex:já_pronoun_ins , ex:já_pronoun_dat , ex:já_pronoun_voc , ex:já_pronoun_dat_2 , ex:já_pronoun_gen_2 , ex:já_pronoun_gen , ex:já_pronoun_acc ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_noun_p_acc  a        lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_s_mi_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_p_ma_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovými"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sršeň  a                    dbnary:Page ;
+        rdfs:label             "sršeň"@cs ;
+        rdfs:seeAlso           cs-dbpedia:Sršeň ;
+        dbnary:describes       ex:sršeň_noun ;
+        lexinfo:pronunciation  "sr̩ʃɛɲ" .
+
+ex:takový_pronoun_p_f_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovými"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:být_verb_tra_pre_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:sršeň_noun_s_dat_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_imp_p_2  a        lemon:LexicalEntry ;
+        rdfs:label            "buďte"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:peso_noun_s_nom  a         lemon:LexicalEntry ;
+        rdfs:label            "peso"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_ind_pre_s_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsi"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jít_verb_ind_fut_s_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "půjdeš"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:mladý_noun_p_voc  a        lemon:LexicalEntry ;
+        rdfs:label            "mladí"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_s_n_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:takový_pronoun_s_ma_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovému"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_mi_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_s_f_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladá"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jíst_verb_tra_pre_s_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedouc"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:jít_verb_pas_s_f  a        lemon:LexicalEntry ;
+        rdfs:label            "jita"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:tahle_pronoun_p_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "tyhle"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:peso_noun_s_loc  a         lemon:LexicalEntry ;
+        rdfs:label            "pesu"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_tra_pre_p_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:ale  a                      dbnary:Page ;
+        rdfs:label             "ale"@cs ;
+        dbnary:describes       ex:ale_noun , ex:ale_interjection , ex:ale_particle , ex:ale_conjunction ;
+        lexinfo:pronunciation  "ɛjl" , "alɛ" .
+
+ex:sršeň_noun_p_nom  a        lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_n_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovým"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_mi_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlád"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:inanimate ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:kolikátý_numeral_s_f_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátá"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_s_mi_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátý"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_p_f_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sršeň_noun_s_loc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_s_n_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovém"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_tra_pre_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jeda"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:takový  a                   dbnary:Page ;
+        rdfs:label             "takový"@cs ;
+        dbnary:describes       ex:takový_pronoun ;
+        lexinfo:pronunciation  "ˈtakɔviː" .
+
+ex:jíst_verb_imp_p_2  a       lemon:LexicalEntry ;
+        rdfs:label            "jezte"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:jít_verb_tra_pas_p_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šedše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:mladý_adjective_s_f_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sto_numeral_d_acc  a       lemon:LexicalEntry ;
+        rdfs:label            "sta"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_s_f_nom_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mláda"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:nominativeCase ;
+        lexinfo:gender             lexinfo:feminine ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:být_verb_con_p_1  a        lemon:LexicalEntry ;
+        rdfs:label            "bychom"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:verbFormMood  lexinfo:conditional .
+
+ex:jíst_verb_tra_pre_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:tahle_pronoun_p_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "těchhle"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:být_verb_act_s_n  a        lemon:LexicalEntry ;
+        rdfs:label            "bylo"@cs ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_p_mi_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_p_f_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sršeň_noun_p_loc  a        lemon:LexicalEntry ;
+        rdfs:label            "sršních"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_s_f_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_p_ma_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_s_mi_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátý"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:peso  a                     dbnary:Page ;
+        rdfs:label             "peso"@cs ;
+        dbnary:describes       ex:peso_noun ;
+        lexinfo:pronunciation  "pɛsɔ" .
+
+ex:pes_noun_p_nom_2  a        lemon:LexicalEntry ;
+        rdfs:label            "psové"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral_d_voc  a       lemon:LexicalEntry ;
+        rdfs:label            "sta"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:já_pronoun_gen  a          lemon:LexicalEntry ;
+        rdfs:label            "mě"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:blízko_adverb_kom  a       lemon:LexicalEntry ;
+        rdfs:label            "blíž"@cs ;
+        lexinfo:degree        lexinfo:comparative ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:pes_noun_p_acc  a          lemon:LexicalEntry ;
+        rdfs:label            "psy"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kéž  a                      dbnary:Page ;
+        rdfs:label             "kéž"@cs ;
+        dbnary:describes       ex:kéž_particle ;
+        lexinfo:pronunciation  "kɛːʃ" .
+
+ex:tahle_pronoun_s_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "tuhle"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_noun_s_gen  a        lemon:LexicalEntry ;
+        rdfs:label            "mladého"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:pes_noun_s_loc_2  a        lemon:LexicalEntry ;
+        rdfs:label            "psu"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_s_acc  a        lemon:LexicalEntry ;
+        rdfs:label            "sršeň"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_p_mi_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovými"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_p_mi_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlády"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:inanimate ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:sršeň_noun_s_ins_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršněm"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun  a          lemon:LexicalEntry ;
+        rdfs:label            "takový"@cs ;
+        lemon:formVariant     ex:takový_pronoun_p_ma_gen , ex:takový_pronoun_p_mi_gen , ex:takový_pronoun_p_ma_acc , ex:takový_pronoun_s_mi_loc , ex:takový_pronoun_s_f_loc , ex:takový_pronoun_s_f_acc , ex:takový_pronoun_s_n_gen , ex:takový_pronoun_s_mi_dat , ex:takový_pronoun_p_f_dat , ex:takový_pronoun_s_n_acc , ex:takový_pronoun_p_mi_ins , ex:takový_pronoun_p_mi_acc , ex:takový_pronoun_s_ma_loc , ex:takový_pronoun_p_ma_nom , ex:takový_pronoun_p_f_gen , ex:takový_pronoun_s_mi_acc , ex:takový_pronoun_p_n_loc , ex:takový_pronoun_p_f_loc , ex:takový_pronoun_p_f_ins , ex:takový_pronoun_s_n_nom , ex:takový_pronoun_p_ma_dat , ex:takový_pronoun_s_f_nom , ex:takový_pronoun_s_n_ins , ex:takový_pronoun_s_mi_nom , ex:takový_pronoun_s_f_ins , ex:takový_pronoun_p_f_acc , ex:takový_pronoun_s_n_dat , ex:takový_pronoun_s_f_gen , ex:takový_pronoun_s_ma_dat , ex:takový_pronoun_p_mi_dat , ex:takový_pronoun_p_mi_loc , ex:takový_pronoun_p_f_nom , ex:takový_pronoun_s_ma_nom , ex:takový_pronoun_p_n_gen , ex:takový_pronoun_p_n_nom , ex:takový_pronoun_s_ma_ins , ex:takový_pronoun_s_f_dat , ex:takový_pronoun_p_ma_loc , ex:takový_pronoun_p_n_ins , ex:takový_pronoun_s_mi_ins , ex:takový_pronoun_s_ma_acc , ex:takový_pronoun_p_ma_ins , ex:takový_pronoun_p_n_dat , ex:takový_pronoun_s_mi_gen , ex:takový_pronoun_p_n_acc , ex:takový_pronoun_p_mi_nom , ex:takový_pronoun_s_n_loc , ex:takový_pronoun_s_ma_gen ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_ind_pre_s_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jím"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:mladý_adjective_p_ma_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladými"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jít_verb_ind_fut_p_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "půjdeme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:být_verb_ind_pre_p_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsme"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jít_verb_tra_pre_s_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdouc"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:mladý_adjective_s_n_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:být_verb_ind_fut_p_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "budou"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jít_verb_pas_s_ma  a       lemon:LexicalEntry ;
+        rdfs:label            "jit"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:sto_numeral_p_gen  a       lemon:LexicalEntry ;
+        rdfs:label            "set"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:pes_noun_p_voc  a          lemon:LexicalEntry ;
+        rdfs:label            "psi"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_p_ma_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:já_pronoun_ins  a          lemon:LexicalEntry ;
+        rdfs:label            "mnou"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jít_verb_act_s_mi  a       lemon:LexicalEntry ;
+        rdfs:label            "šel"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:jít_verb_pas_p_mi  a       lemon:LexicalEntry ;
+        rdfs:label            "jity"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:mladý_noun_s_ins  a        lemon:LexicalEntry ;
+        rdfs:label            "mladým"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_s_voc  a        lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:kolikátý_numeral_s_n_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_s_mi_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takový"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_p_n_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mláda"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:neuter ;
+        lexinfo:number             lexinfo:plural ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:mladý_adjective_s_ma_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladému"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:být_verb_con_s_3  a        lemon:LexicalEntry ;
+        rdfs:label            "by"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:verbFormMood  lexinfo:conditional .
+
+ex:mladý_adjective_s_n_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:sršeň_noun_s_gen_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:blízko_noun_s_gen  a       lemon:LexicalEntry ;
+        rdfs:label            "blízka"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral_p_ins  a       lemon:LexicalEntry ;
+        rdfs:label            "sty"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_p_n_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladá"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_p_ma_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátými"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_s_mi_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovém"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:kolikátý_numeral_s_n_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_noun  a              lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lemon:formVariant     ex:mladý_noun_s_ins , ex:mladý_noun_s_acc , ex:mladý_noun_s_gen , ex:mladý_noun_p_dat , ex:mladý_noun_s_nom , ex:mladý_noun_p_voc , ex:mladý_noun_p_gen , ex:mladý_noun_p_ins , ex:mladý_noun_p_acc , ex:mladý_noun_p_loc , ex:mladý_noun_s_dat , ex:mladý_noun_s_loc , ex:mladý_noun_s_voc , ex:mladý_noun_p_nom ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral_s_nom  a       lemon:LexicalEntry ;
+        rdfs:label            "sto"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_p_n_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátým"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_p_ma_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_p_mi_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_kom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladší"@cs ;
+        lexinfo:degree        lexinfo:comparative ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_adjective_p_n_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_p_f_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:vždyť  a                    dbnary:Page ;
+        rdfs:label             "vždyť"@cs ;
+        dbnary:describes       ex:vždyť_adverb , ex:vždyť_conjunction ;
+        lexinfo:pronunciation  "vʒdɪc" .
+
+ex:jíst_verb  a               lemon:LexicalEntry ;
+        rdfs:label            "jíst"@cs ;
+        lemon:formVariant     ex:jíst_verb_tra_pre_p_n , ex:jíst_verb_act_p_mi , ex:jíst_verb_pas_s_mi , ex:jíst_verb_imp_p_1 , ex:jíst_verb_act_p , ex:jíst_verb_tra_pre_s_n , ex:jíst_verb_pas_s_f , ex:jíst_verb_tra_pre_p_f , ex:jíst_verb_pas_s_ma , ex:jíst_verb_ind_pre_s_2 , ex:jíst_verb_pas_p_mi , ex:jíst_verb_act_p_ma , ex:jíst_verb_ind_pre_p_2 , ex:jíst_verb_tra_pre_p_mi , ex:jíst_verb_pas_p , ex:jíst_verb_imp_p_2 , ex:jíst_verb_pas_p_f , ex:jíst_verb_pas_p_ma , ex:jíst_verb_act_s_f , ex:jíst_verb_imp_s_2 , ex:jíst_verb_tra_pre_s_mi , ex:jíst_verb_act_s_mi , ex:jíst_verb_ind_pre_p_3 , ex:jíst_verb_tra_pre_s_ma , ex:jíst_verb_tra_pre_s_f , ex:jíst_verb_ind_pre_s_3 , ex:jíst_verb_pas_s_n , ex:jíst_verb_act_s_ma , ex:jíst_verb_ind_pre_p_1 , ex:jíst_verb_act_p_f , ex:jíst_verb_act_s_n , ex:jíst_verb_ind_pre_s_1 , ex:jíst_verb_tra_pre_p_ma ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:verbFormMood  lexinfo:infinitive .
+
+ex:jít_verb_act_p_f  a        lemon:LexicalEntry ;
+        rdfs:label            "šly"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:blízko_noun_s_ins  a       lemon:LexicalEntry ;
+        rdfs:label            "blízkem"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sršeň_noun_s_dat_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršňovi"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:takový_pronoun_s_f_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sto_numeral_s_loc  a       lemon:LexicalEntry ;
+        rdfs:label            "stu"@cs ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:kolikátý_numeral_s_ma_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátému"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_ind_pre_s_1
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdu"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:firstPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:pes_noun_s_gen  a          lemon:LexicalEntry ;
+        rdfs:label            "psa"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jít_verb_ind_fut_s_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "půjde"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:být_verb_ind_pre_s_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "je"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:thirdPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:čtyři_numeral_gen  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyř"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_act_p_ma  a       lemon:LexicalEntry ;
+        rdfs:label            "šli"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:peso_noun_p_gen  a         lemon:LexicalEntry ;
+        rdfs:label            "pes"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_mi_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladými"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:blízko_adverb_sup  a       lemon:LexicalEntry ;
+        rdfs:label            "nejblíž"@cs ;
+        lexinfo:degree        lexinfo:superlative ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:takový_pronoun_s_f_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovou"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:sršeň_noun_s_loc_3
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršňovi"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:ale_interjection  a        lemon:LexicalEntry ;
+        rdfs:label            "ale"@cs ;
+        lexinfo:partOfSpeech  lexinfo:interjection .
+
+ex:kolikátý_numeral_p_mi_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátých"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_tra_pas_p_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byvše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:pes_noun_s_ins  a          lemon:LexicalEntry ;
+        rdfs:label            "psem"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_con_p_2  a        lemon:LexicalEntry ;
+        rdfs:label            "byste"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:conditional .
+
+ex:často_adverb  a            lemon:LexicalEntry ;
+        rdfs:label            "často"@cs ;
+        lemon:formVariant     ex:často_adverb_sup , ex:často_adverb_kom , ex:často_adverb_poz ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:čtyři_numeral_ins  a       lemon:LexicalEntry ;
+        rdfs:label            "čtyřmi"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_noun_p_nom  a        lemon:LexicalEntry ;
+        rdfs:label            "mladí"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:peso_noun_p_ins  a         lemon:LexicalEntry ;
+        rdfs:label            "pesy"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:jít_verb_tra_pre_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jda"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:peso_noun_s_dat  a         lemon:LexicalEntry ;
+        rdfs:label            "pesu"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_act_p_mi  a       lemon:LexicalEntry ;
+        rdfs:label            "byly"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:mladý_adjective_s_mi_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladý"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jíst_verb_pas_p_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedeni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:jít_verb_tra_pre_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jdouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:jíst  a                     dbnary:Page ;
+        rdfs:label             "jíst"@cs ;
+        dbnary:describes       ex:jíst_verb ;
+        lexinfo:pronunciation  "jiːst" .
+
+ex:jíst_verb_act_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedly"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:active .
+
+ex:takový_pronoun_s_n_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takovému"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_f_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_p_mi_ins
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátými"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:čtyři_numeral_ins_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "čtyřma"@cs ;
+        lexinfo:case          lexinfo:instrumentalCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:být_verb_tra_pas_s_ma
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byv"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:mladý_noun_p_loc  a        lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:tahle_pronoun_p_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "těmhle"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:takový_pronoun_p_mi_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takové"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_mi_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladém"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jít_verb_tra_pas_s_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šed"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:sršeň_noun_p_dat  a        lemon:LexicalEntry ;
+        rdfs:label            "sršním"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_tra_pas_p_mi
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "byvše"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:kolikátý_numeral_s_f_dat
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:case          lexinfo:dativeCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sršeň_noun_p_nom_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršni"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:mladý_adjective_p_ma_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladé"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:jíst_verb_ind_pre_s_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jíš"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jít_verb_ind_fut_p_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "půjdete"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:future ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:jít_verb_imp_s_2  a        lemon:LexicalEntry ;
+        rdfs:label            "pojď"@cs ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:být_verb_ind_pre_p_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jste"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:tense         lexinfo:present ;
+        lexinfo:verbFormMood  lexinfo:indicative .
+
+ex:být_verb_tra_pre_s_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jsouc"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:pes_noun  a                lemon:LexicalEntry ;
+        rdfs:label            "pes"@cs ;
+        lemon:formVariant     ex:pes_noun_p_voc , ex:pes_noun_s_loc_2 , ex:pes_noun_p_gen , ex:pes_noun_s_dat , ex:pes_noun_s_gen , ex:pes_noun_p_nom , ex:pes_noun_p_loc , ex:pes_noun_s_voc , ex:pes_noun_p_acc , ex:pes_noun_p_nom_2 , ex:pes_noun_s_ins , ex:pes_noun_p_dat , ex:pes_noun_s_loc , ex:pes_noun_s_dat_2 , ex:pes_noun_p_voc_2 , ex:pes_noun_p_ins , ex:pes_noun_s_acc , ex:pes_noun_s_nom ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:já_pronoun_acc  a          lemon:LexicalEntry ;
+        rdfs:label            "mě"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:jíst_verb_tra_pre_p_n
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "jedouce"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:present .
+
+ex:jít_verb_pas_p_f  a        lemon:LexicalEntry ;
+        rdfs:label            "jity"@cs ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:voice         lexinfo:passive .
+
+ex:kolikátý_numeral_s_mi_nom
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátý"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:takový_pronoun_s_ma_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takového"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_sup
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "nejmladší"@cs ;
+        lexinfo:degree        lexinfo:superlative ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:mladý_noun_s_acc  a        lemon:LexicalEntry ;
+        rdfs:label            "mladého"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:sto_numeral  a             lemon:LexicalEntry ;
+        rdfs:label            "sto"@cs ;
+        lemon:formVariant     ex:sto_numeral_d_ins , ex:sto_numeral_s_dat , ex:sto_numeral_s_acc , ex:sto_numeral_p_dat , ex:sto_numeral_s_loc , ex:sto_numeral_d_nom , ex:sto_numeral_s_nom , ex:sto_numeral_p_nom , ex:sto_numeral_p_loc , ex:sto_numeral_s_ins , ex:sto_numeral_d_acc_2 , ex:sto_numeral_p_ins , ex:sto_numeral_d_acc , ex:sto_numeral_s_gen , ex:sto_numeral_d_loc , ex:sto_numeral_d_voc , ex:sto_numeral_p_gen , ex:sto_numeral_p_acc , ex:sto_numeral_d_gen , ex:sto_numeral_d_dat , ex:sto_numeral_p_voc , ex:sto_numeral_s_voc ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:jít_verb_tra_pas_s_f
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "šedši"@cs ;
+        mte:hasVerbForm       mte:Transgressive ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:tense         lexinfo:past .
+
+ex:sto_numeral_d_nom  a       lemon:LexicalEntry ;
+        rdfs:label            "stě"@cs ;
+        lexinfo:case          lexinfo:nominativeCase ;
+        lexinfo:number        lexinfo:dual ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:často  a                    dbnary:Page ;
+        rdfs:label             "často"@cs ;
+        dbnary:describes       ex:často_adverb ;
+        lexinfo:pronunciation  "t͡ʃastɔ" .
+
+ex:čtyři_numeral_gen_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "čtyřech"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:mladý_adjective_p_ma_voc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladí"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:takový_pronoun_p_n_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "takových"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:neuter ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:mladý_adjective_s_mi_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mlád"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:animacy            lexinfo:inanimate ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:masculine ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:mladý_adjective_p_f_gen
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "mladých"@cs ;
+        lexinfo:case          lexinfo:genitiveCase ;
+        lexinfo:gender        lexinfo:feminine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:adjective .
+
+ex:kolikátý_numeral_s_mi_loc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikátém"@cs ;
+        lexinfo:animacy       lexinfo:inanimate ;
+        lexinfo:case          lexinfo:locativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:singular ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:sršeň_noun_p_acc_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "sršně"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:noun .
+
+ex:být_verb_imp_p_2_2
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "buďtež"@cs ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:verb ;
+        lexinfo:person        lexinfo:secondPerson ;
+        lexinfo:verbFormMood  lexinfo:imperative .
+
+ex:často_adverb_kom  a        lemon:LexicalEntry ;
+        rdfs:label            "častěji"@cs ;
+        lexinfo:degree        lexinfo:comparative ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:mladý_adjective_s_f_acc_nom
+        a                          lemon:LexicalEntry ;
+        rdfs:label                 "mládu"@cs ;
+        mte:hasAdjectiveFormation  mte:NominalAdjective ;
+        lexinfo:case               lexinfo:accusativeCase ;
+        lexinfo:gender             lexinfo:feminine ;
+        lexinfo:number             lexinfo:singular ;
+        lexinfo:partOfSpeech       lexinfo:adjective .
+
+ex:sto_numeral_p_acc  a       lemon:LexicalEntry ;
+        rdfs:label            "sta"@cs ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .
+
+ex:já_pronoun_voc  a          lemon:LexicalEntry ;
+        rdfs:label            "já"@cs ;
+        lexinfo:case          lexinfo:vocativeCase ;
+        lexinfo:partOfSpeech  lexinfo:pronoun .
+
+ex:blízko_adverb_poz  a       lemon:LexicalEntry ;
+        rdfs:label            "blízko"@cs ;
+        lexinfo:degree        lexinfo:positive ;
+        lexinfo:partOfSpeech  lexinfo:adverb .
+
+ex:kolikátý_numeral_p_ma_acc
+        a                     lemon:LexicalEntry ;
+        rdfs:label            "kolikáté"@cs ;
+        lexinfo:animacy       lexinfo:animate ;
+        lexinfo:case          lexinfo:accusativeCase ;
+        lexinfo:gender        lexinfo:masculine ;
+        lexinfo:number        lexinfo:plural ;
+        lexinfo:partOfSpeech  lexinfo:numeral .

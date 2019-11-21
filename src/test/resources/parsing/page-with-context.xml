@@ -1,0 +1,49 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/
+           http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10"
+           xml:lang="cs">
+    <siteinfo>
+        <sitename>Wikislovník</sitename>
+        <dbname>cswiktionary</dbname>
+        <base>https://cs.wiktionary.org/wiki/Wikislovn%C3%ADk:Hlavn%C3%AD_strana</base>
+        <generator>MediaWiki 1.34.0-wmf.24</generator>
+        <case>case-sensitive</case>
+        <namespaces>
+            <namespace key="-2" case="case-sensitive">Média</namespace>
+            <namespace key="-1" case="first-letter">Speciální</namespace>
+            <namespace key="0" case="case-sensitive" />
+            <namespace key="1" case="case-sensitive">Diskuse</namespace>
+            <namespace key="2" case="first-letter">Uživatel</namespace>
+            <namespace key="3" case="first-letter">Diskuse s uživatelem</namespace>
+            <namespace key="4" case="case-sensitive">Wikislovník</namespace>
+            <namespace key="5" case="case-sensitive">Diskuse k Wikislovníku</namespace>
+            <namespace key="6" case="case-sensitive">Soubor</namespace>
+            <namespace key="7" case="case-sensitive">Diskuse k souboru</namespace>
+            <namespace key="8" case="first-letter">MediaWiki</namespace>
+            <namespace key="9" case="first-letter">Diskuse k MediaWiki</namespace>
+            <namespace key="10" case="case-sensitive">Šablona</namespace>
+            <namespace key="11" case="case-sensitive">Diskuse k šabloně</namespace>
+            <namespace key="12" case="case-sensitive">Nápověda</namespace>
+            <namespace key="13" case="case-sensitive">Diskuse k nápovědě</namespace>
+            <namespace key="14" case="case-sensitive">Kategorie</namespace>
+            <namespace key="15" case="case-sensitive">Diskuse ke kategorii</namespace>
+            <namespace key="100" case="case-sensitive">Příloha</namespace>
+            <namespace key="101" case="case-sensitive">Diskuse k příloze</namespace>
+            <namespace key="828" case="case-sensitive">Modul</namespace>
+            <namespace key="829" case="case-sensitive">Diskuse k modulu</namespace>
+            <namespace key="2300" case="case-sensitive">Udělátko</namespace>
+            <namespace key="2301" case="case-sensitive">Diskuse k udělátku</namespace>
+            <namespace key="2302" case="case-sensitive">Definice udělátka</namespace>
+            <namespace key="2303" case="case-sensitive">Diskuse k definici udělátka</namespace>
+        </namespaces>
+    </siteinfo>
+    <page>
+        <title>bare page</title>
+        <ns>0</ns>
+        <revision>
+            <text>== čeština ==
+text</text>
+        </revision>
+    </page>
+</mediawiki>

@@ -1,0 +1,25 @@
+{{Sloveso (cs)
+  | spre1 = jím
+  | ppre1 = jíme
+  | spre2 = jíš
+  | ppre2 = jíte
+  | spre3 = jí
+  | ppre3 = jedí
+  | pimp1 = jezme
+  | simp2 = jez
+  | pimp2 = jezte
+  | sactm = jedl
+  | pactm = jedli
+  | sactf = jedla
+  | pactf = jedly
+  | sactn = jedlo
+  | spasm = jeden
+  | ppasm = jedeni
+  | spasf = jedena
+  | ppasf = jedeny
+  | spasn = jedeno
+  | ptram = jeda
+  | ptraf = jedouc
+  | ptrap = jedouce
+  | mtra = skrýt
+}}

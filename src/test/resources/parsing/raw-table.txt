@@ -1,0 +1,20 @@
+;pomocné sloveso v podmiňovacím způsobu
+{| class=&quot;konjugace verbum&quot;
+|-
+!'''os.'''
+!'''sg'''
+!'''pl'''
+|-
+!'''1.'''
+|bych
+|bychom&lt;ref groulp=&quot;p&quot; name=&quot;bysme&quot;&gt;nespisovně: bysme, chybně: by jsme&t;/ref&gt;
+|-
+!'''2.'''
+|bys
+|byste&lt;ref group=&quot;p&quot; name=&quot;by jste&quot;&gt;nesprávně: by jste&lt;/ref&gt;
+|-
+!'''3.'''
+|by
+|by
+|-
+|}

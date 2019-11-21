@@ -1,0 +1,323 @@
+<page>
+    <title>pes</title>
+    <ns>0</ns>
+    <id>7218</id>
+    <revision>
+        <id>1000437</id>
+        <parentid>996481</parentid>
+        <timestamp>2019-05-06T14:50:25Z</timestamp>
+        <contributor>
+            <ip>2001:569:7DAC:A800:D879:4C7F:AABF:BDA</ip>
+        </contributor>
+        <comment>/* význam */  (Power Extension Strip)</comment>
+        <model>wikitext</model>
+        <format>text/x-wiki</format>
+        <text xml:space="preserve">{{Viz}}
+
+== čeština ==
+
+=== výslovnost ===
+* {{IPA|pɛs}} {{Audio|Cs-pes.ogg|pes}}
+
+=== dělení ===
+* pes
+
+=== etymologie ===
+Lze najít ve všech slovanských jazycích od praslovanského *''pьsъ'', které je slovanskou inovací proti původnímu indoevropskému *''ḱu̯on-''. Výklady původu jsou nejednoznačné, může být odvozeno od vábícího citoslovce ''ps!''.&lt;ref name=&quot;rejzek&quot;&gt;{{Rejzek|rok=2001|heslo=pes|strany=462}}&lt;/ref&gt; Jiný výklad uvádí původ od zvyku psů značit močením, tedy od kořene ''pis-'' souvisejícího se slovy ''[[pištěti]]'' (tj. ''[[téci]]'') a ''[[vypiskovati se]]''.&lt;ref name=&quot;neslovesné&quot;&gt;{{Naše řeč|titul=Neslovesné věty v češtině : Studie o tvoření výrazů expresivních|rok=1930|ročník=14|číslo=9–10|art=1775}}&lt;/ref&gt;
+
+=== podstatné jméno (1) ===
+* ''rod mužský životný''
+
+==== skloňování ====
+{{Substantivum (cs)
+  | snom = pes
+  | sgen = [[psa]]
+  | sdat = psovi / psu
+  | sacc = [[psa]]
+  | svoc = pse
+  | sloc = psovi / psu
+  | sins = [[psem]]
+  | pnom = [[psi]] / psové
+  | pgen = psů
+  | pdat = psům
+  | pacc = psy
+  | pvoc = [[psi]] / psové
+  | ploc = psech
+  | pins = psy
+}}
+
+==== význam ====
+# [[psovitý|psovitá]] [[šelma]] [[chovaný|chovaná]] [[jako]] [[domácí]] [[zvíře]]
+#* {{Příklad|cs|Pes je nejlepší přítel člověka.}}
+# [[samec]] psa (1)
+#* {{Příklad|cs|Krycí pes i chovná fena musí být zaregistrováni v Plemenné knize.}}
+# [[samec]] [[psovitý|psovité]] [[šelma|šelmy]]
+# {{Příznaky|cs|expr.|pejor.}} [[nedobrý]], [[krutý]] ([[člověk]])&lt;ref name=&quot;ssjc&quot;/&gt;&lt;ref name=&quot;psjc&quot;/&gt;
+#* {{Příklad|cs|„Náš kapitán je pes,“ povídá jeden námořník.}}&lt;ref name=&quot;fik&quot;/&gt;
+# {{Příznaky|cs|želez.}} [[kolejová zarážka]]
+# {{Příznaky|cs|slang.|elektr.}} [[prodlužovací]] [[kabel]] [[zakončený]] [[více]] [[zásuvka]]mi (Power Extension Strip)
+#* {{Příklad|cs|Kam to mám zapojit? – Dole pod stolem je pes. Když tam nebude volná zásuvka, vytáhni tu plochou zástrčku.}}
+# ''(oděvnický slang, ve zkrácené formě)'' [[polyester]]
+#* {{Příklad|cs|Přines mi ty punčochy ze psa/z pesa.}}
+
+==== překlady ====
+# {{Překlady
+  | význam = šelma
+  | ar = {{P|ar|كَلْب|m}}
+  | ba = {{P|ba|эт}}
+  | co = {{P|co|ghjacaru|m}}
+  | de = {{P|de|Hund|m}}
+  | el = {{P|el|σκύλος|m}}
+  | en = {{P|en|dog}}
+  | eo = {{P|eo|hundo}}
+  | es = {{P|es|perro|m}}
+  | fi = {{P|fi|koira}}
+  | fr = {{P|fr|chien|m}}
+  | grc = {{P|grc|κύων|m}}
+  | he = {{P|he|כֶּלֶב|m}}
+  | hr = {{P|hr|pas|m}}
+  | hsb = {{P|hsb|pos|m}}
+  | hu = {{P|hu|kutya}}
+  | hy = {{P|hy|շուն}}
+  | is = {{P|is|hundur|m}}
+  | it = {{P|it|cane|m}}
+  | ja = {{P|ja|犬}}
+  | kl = {{P|kl|qimmeq}}
+  | ko = {{P|ko|개}}
+  | la = {{P|la|canis|c}}
+  | lt = {{P|lt|šuo|m}}
+  | lv = {{P|lv|suns|m}}
+  | nl = {{P|nl|hond|m}}
+  | oc = {{P|oc|gos|m}}, {{P|oc|can|m}}
+  | pl = {{P|pl|pies|m}}
+  | pt = {{P|pt|cão|m}}, {{P|pt|cachorro|m}}
+  | rom = {{P|rom|rukono|m}}
+  | ru = {{P|ru|собака|f}}, {{P|ru|пёс|m}}
+  | sgs = {{P|sgs|šou|m}}
+  | sk = {{P|sk|pes|m}}
+  | sv = {{P|sv|hund|c}}
+  | syr = {{P|syr|ܟܰܠܒܳܐ}}
+  | tmr = {{P|tmr|כַּלְבָּא}}
+  | tr = {{P|tr|köpek}}
+  | tt = {{P|tt|эт}}
+  | vo = {{P|vo|dog}}
+  | yi = {{P|yi|הונד|m}}
+}}
+# {{Překlady
+  | význam = samec psa
+  | de = {{P|de|Rüde|m}}
+  | en = {{P|en|dog}}
+  | es = {{P|es|perro|m}}
+  | fr = {{P|fr|chien|m}}
+  | it = {{P|it|cane|m}}
+  | la = {{P|la|canis|m}}
+  | pl = {{P|pl|pies|m}}
+  | ru = {{P|ru|кобель|m}}, {{P|ru|пёс|m}}
+  | sk = {{P|sk|pes|m}}
+  | sv = {{P|sv|hanhund|c}}
+}}
+# {{Překlady
+}}
+# {{Překlady
+  | význam = zlý člověk
+  | de = {{P|de|Gauner|m}}
+  | en = {{P|en|scoundrel}}
+  | sk = {{P|sk|pes|m}}
+}}
+# {{Překlady
+}}
+# {{Překlady
+}}
+# {{Překlady
+}}
+
+==== synonyma ====
+# {{Příznak2|zdrob.}} [[pejsek]], {{Příznak2|expr.|zř.}} [[pesan]], {{Příznak2|hanl.}} [[čokl]], ''neutrálně, obrazně'' {{Příznak2|kniž.}} [[nejlepší přítel člověka]], {{Příznak2|hanl.}} (nešlechtěný) [[vořech]], {{Příznak2|zdrob.}} [[voříšek]], {{Příznak2|zř.}} (ostřejší, bojovnější) [[rafan]], {{Příznak2|zhrub.}} (mohutnější) bafan, {{Příznak2|zhrub.}} (zvl. velký pes) [[hafan]], {{Příznak2|zdrob.}} [[hafík]], ''neutrálně, obrazně, v publicistice'' [[čtyřnohý miláček]]
+# —
+# —
+# —
+# —
+# —
+# —
+
+==== antonyma ====
+# —
+# [[fena]], [[psice]], [[čuba]]
+# [[fena]]
+# —
+# —
+# —
+# —
+
+==== související ====
+* [[psík]]
+* [[psíček]]
+* [[psisko]]
+* [[pejsek]]
+* [[psina]]&lt;ref name=&quot;neslovesné&quot;/&gt;
+* [[psinec]]
+* [[psinka]]
+* [[psí]]
+* [[psota]]&lt;ref name=&quot;neslovesné&quot;/&gt;
+* [[psotník]]&lt;ref name=&quot;neslovesné&quot;/&gt;
+* [[psovský]]
+* [[psovitý]]
+* [[psovat]]&lt;ref name=&quot;neslovesné&quot;/&gt;
+* [[psův]]
+* [[zepsout]]&lt;ref name=&quot;neslovesné&quot;/&gt;
+* [[sepsout]]&lt;ref&gt;{{Citace elektronické monografie
+  | příjmení =
+  | jméno =
+  | odkaz na autora =
+  | titul = Dotaz týdne 2010: 36/2010, zepsout
+  | url = http://www.ujc.cas.cz/jazykova-poradna/zajimave-dotazy/dotaz-tydne-2010.html
+  | datum vydání = 2010
+  | datum aktualizace =
+  | datum přístupu = 2015-07-31
+  | vydavatel = Ústav pro jazyk český: Jazyková poradna
+  | místo =
+  | jazyk = česky
+}}&lt;/ref&gt;
+* [[psice]]
+* [[kočkopes]]
+* [[Psáry]]
+
+==== slovní spojení ====
+* [[pes domácí]]
+* [[pod psa]]
+* [[zakopaný pes]]
+
+==== fráze a idiomy ====
+* [[být na koho jako pes]]
+* [[být na co pes]]
+* [[počasí, že by psa nevyhnal]]
+* [[každý pes jiná ves]]
+* [[jít to komu jako psovi pastva]]
+* [[to by nežral ani pes]]
+* [[ani pes po kom neštěkne]]
+* [[pod psa]]
+* [[chcípl pes]]
+
+==== přísloví, rčení a pořekadla ====
+* [[pes, který štěká, nekouše]]
+* [[kdo chce psa bít, hůl si vždycky najde]]
+* [[mnoho psů zajícova smrt]]
+* [[starého psa novým kouskům nenaučíš]]
+* [[život je pes]]
+
+=== podstatné jméno (2) ===
+* ''rod mužský neživotný''
+
+==== význam ====
+# ''genitiv plurálu substantiva [[peso]]''
+
+== latina ==
+
+=== podstatné jméno ===
+* rod mužský (''maskulinum'')
+* 3. deklinace
+
+==== skloňování ====
+{{Substantivum (la)
+  | snom = pēs
+  | sgen = [[pedis]]
+  | sdat = [[pedi|pedī]]
+  | sacc = [[pedem]]
+  | sabl = [[pede]]
+  | svoc = pēs
+  | pnom = [[pedes|pedēs]]
+  | pgen = [[pedum]]
+  | pdat = [[pedibus]]
+  | pacc = [[pedes|pedēs]]
+  | pabl = [[pedibus]]
+  | pvoc = [[pedes|pedēs]]
+}}
+
+==== význam ====
+# [[noha]]
+# (obvykle plurál ''pedes'') lana u spodních cípů plachty k ovládání lodi
+# [[stopa]] (jednotka délky), 29,6 cm, 1/5 kroku ([[passus]])
+# stopa (literatura), jednotka [[Metrum|metra]] v poesii
+
+== romština ==
+{{Minimum|rom}}
+
+=== zájmeno ===
+
+==== význam ====
+# [[se]], akuzativ singuláru osobního zájmena zvratného
+
+== slovenština ==
+
+=== výslovnost ===
+* {{IPA|pɛs}}
+
+=== etymologie ===
+Lze najít všech slovanských jazycích od praslovanského *''pЬsЪ'', které je slovanskou inovací proti původnímu indoevropskému *''ḱu̯on-''. Výklady původu jsou nejednoznačné, může být odvozeno od vábícího citoslovce ''ps!''.&lt;ref name=&quot;rejzek&quot; /&gt;
+
+=== podstatné jméno ===
+* ''rod mužský životný''
+
+==== skloňování ====
+{{Substantivum (sk)
+  | snom = pes
+  | sgen = psa
+  | sdat = psovi
+  | sacc = psa
+  | sloc = psovi
+  | sins = psom
+  | pnom = psi / psy
+  | pgen = psov
+  | pdat = psom
+  | pacc = psov / psy
+  | ploc = psoch
+  | pins = psami
+}}
+
+==== význam ====
+# [[pes#čeština|pes]] (''též přeneseně; významy jako v češtině'')
+#* {{Příklad|sk|Pes je najlepší priateľ človeka.|Pes je nejlepší přítel člověka.}}
+#* {{Příklad|sk|Víťazi súťaže sa stávajú pes a suka z každého plemena.|Vítězi soutěže se stávají pes a fena z každého plemene.}}
+#* {{Příklad|sk|Život je pes.|Život je pes.}}
+
+==== antonyma ====
+* [[fena]]
+
+==== související ====
+* [[psík]]
+* [[psíček]]
+* [[psisko]]
+* [[psí]]
+* [[psovský]]
+* [[psovitý]]
+
+== turečtina ==
+{{Doplnit|výslovnost|tr}}
+
+=== varianty ===
+* {{Příznak2|stp.}} [[پس]]
+
+=== přídavné jméno ===
+
+==== význam ====
+# [[hluboký]] {{Upřesnění|zvuk, tón}}
+
+== poznámky ==
+&lt;references&gt;
+&lt;ref name=&quot;psjc&quot;&gt;{{PSJČ|pes|2015-01-06}}&lt;/ref&gt;
+&lt;ref name=&quot;ssjc&quot;&gt;{{SSJČ|pes|2015-01-06}}&lt;/ref&gt;
+&lt;ref name=&quot;fik&quot;&gt;ČECHURA, Rudolf: Fík jde do světa&lt;/ref&gt;
+&lt;/references&gt;
+
+== externí odkazy ==
+* {{Wikipedie|článek=Pes domácí}}
+* {{Wikipedie|rozcestník=Pes (rozcestník)}}
+
+[[Kategorie:Latinská substantiva]]
+[[Kategorie:Česká substantiva]]
+[[Kategorie:Tvary českých substantiv]]
+[[Kategorie:Romská zájmena]]
+[[Kategorie:Slovenská substantiva]]</text>
+        <sha1>jp5p7wj8a4mftlkx116b5v9mqm99yho</sha1>
+    </revision>
+</page>

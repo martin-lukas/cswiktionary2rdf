@@ -1,0 +1,12 @@
+* ''rod mužský životný''
+* ''rod ženský''
+* ''rod ženský a střední''
+* ''rod mužský neživotný nebo rod střední''
+* ''mužský neživotný nebo střední''
+{{Rod|ma}}
+{{Rod|mi}}
+{{Rod|f}}
+{{Rod|n}}
+{{Rod|m}}
+{{Rod|not}}
+{{Rod|ma}} something {{Příklad|cs|something else}}

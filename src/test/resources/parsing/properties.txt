@@ -1,0 +1,5 @@
+* ''is a property''
+* ''another property''
+* 'invalid property''
+'' not a property''
+* ''also not a property
