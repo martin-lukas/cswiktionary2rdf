@@ -91,7 +91,7 @@ public class Parser {
                     String czechExtSection = getCzechAndExtSection(pageText.toString());
                     if (czechExtSection.contains("== čeština ==")) {
                         // to make it easier later for extracting the actual information
-                        pages.add(new Page(pageTitle, TextUtils.removeLinks(czechExtSection)));
+                        pages.add(new Page(pageTitle, czechExtSection));
                     }
                 }
                 

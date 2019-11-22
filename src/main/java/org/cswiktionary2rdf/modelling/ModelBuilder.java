@@ -4,6 +4,7 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.cswiktionary2rdf.modelling.mappings.Namespace;
 import org.cswiktionary2rdf.utils.Page;
+import org.cswiktionary2rdf.utils.TextUtils;
 
 import java.util.List;
 
@@ -24,7 +25,10 @@ public class ModelBuilder {
     
     public void buildModel() {
         for (Page page : pages) {
-            new PageExtractor().extract(model, page);
+            // makes extracting easier
+            Page pageWithoutLinks = new Page(page.getTitle(), TextUtils.removeLinks(page.getText()));
+            
+            new PageExtractor().extract(model, pageWithoutLinks);
         }
         System.out.println("Triples: " + model.size());
     }

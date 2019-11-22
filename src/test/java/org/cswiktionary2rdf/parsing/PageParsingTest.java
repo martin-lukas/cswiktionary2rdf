@@ -5,7 +5,6 @@ import org.cswiktionary2rdf.utils.Page;
 import org.junit.Test;
 
 import java.util.List;
-import java.util.Map;
 
 import static org.junit.Assert.*;
 
@@ -38,7 +37,7 @@ public class PageParsingTest {
             assertEquals("pes", page.getTitle());
             
             String pageText = page.getText();
-            assertEquals(5515, pageText.length());
+            assertEquals(5851, pageText.length());
             assertFalse(pageText.contains("== latina =="));
             assertTrue(pageText.contains("== externí odkazy =="));
         }

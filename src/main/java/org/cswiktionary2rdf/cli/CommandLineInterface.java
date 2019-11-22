@@ -20,30 +20,20 @@ public class CommandLineInterface {
         int arglen = args.length;
         
         if (arglen == 1) {
-            switch (args[0]) {
-                case "-test":
-                    new TestTask().execute();
-                    break;
-                case "-d":
-                    new DownloadTask().execute();
-                    break;
-                case "-h":
-                    helpTask.execute();
-                    break;
-                default:
-                    System.err.println("Invalid command.\n");
-                    helpTask.execute();
-                    break;
+            if ("-d".equals(args[0])) {
+                new DownloadTask().execute();
+            } else if ("-h".equals(args[0])) {
+                helpTask.execute();
+            } else {
+                System.err.println("Invalid command.\n");
+                helpTask.execute();
             }
         } else if (arglen == 2) {
-            switch (args[0]) {
-                case "-d":
-                    new DownloadTask(args[1]).execute();
-                    break;
-                default:
-                    System.err.println("Invalid command.\n");
-                    helpTask.execute();
-                    break;
+            if ("-d".equals(args[0])) {
+                new DownloadTask(args[1]).execute();
+            } else {
+                System.err.println("Invalid command.\n");
+                helpTask.execute();
             }
         } else if (arglen == 4) {
             if (args[0].equals("-e")) {
