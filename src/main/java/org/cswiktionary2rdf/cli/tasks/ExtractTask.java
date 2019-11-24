@@ -1,10 +1,10 @@
 package org.cswiktionary2rdf.cli.tasks;
 
 import org.apache.jena.rdf.model.Model;
-import org.cswiktionary2rdf.utils.Page;
-import org.cswiktionary2rdf.utils.ModelWriter;
-import org.cswiktionary2rdf.utils.Parser;
 import org.cswiktionary2rdf.modelling.ModelBuilder;
+import org.cswiktionary2rdf.utils.ModelWriter;
+import org.cswiktionary2rdf.utils.Page;
+import org.cswiktionary2rdf.utils.Parser;
 import org.cswiktionary2rdf.utils.RdfFormat;
 import org.xml.sax.SAXException;
 
@@ -12,8 +12,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.Duration;
-import java.time.LocalDateTime;
 import java.util.IllegalFormatException;
 import java.util.List;
 
@@ -40,7 +38,6 @@ public class ExtractTask implements Task {
     
     @Override
     public void execute() {
-        LocalDateTime start = LocalDateTime.now().withNano(0);
         System.out.println("Parsing pages...");
         
         List<Page> pages = null;
@@ -56,25 +53,20 @@ public class ExtractTask implements Task {
             System.err.println("There was a problem in the parser configuration");
             ex.printStackTrace();
         }
-        
+    
         if (pages != null) {
             System.out.println("Finished. Parsed pages: " + pages.size());
-            
+
             System.out.println("Building RDF model...");
             ModelBuilder modelBuilder = new ModelBuilder(pages);
             modelBuilder.buildModel();
             System.out.println("Model finished.");
-            
+
             System.out.println("Saving model into file...");
             ModelWriter.write(modelBuilder.getModel(), format, saveFile);
             System.out.println("Saving finished.");
             System.out.println();
-            
-            Duration duration = Duration.between(start, LocalDateTime.now());
-            System.out.println("Extraction time: "
-                    + duration.toMinutes() + " min "
-                    + (duration.toSeconds() - duration.toMinutes() * 60) + " sec.");
-            
+
             this.model = modelBuilder.getModel(); // for testing purposes
         }
     }

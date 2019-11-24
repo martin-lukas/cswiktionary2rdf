@@ -10,6 +10,7 @@ import org.cswiktionary2rdf.utils.TextUtils;
 import java.util.List;
 
 public class ExternalSectionExtractor implements SectionExtractor {
+    
     @Override
     public void extract(Model model, Resource resource, Page page) {
         ExternalModeller externalModeller = new ExternalModeller();

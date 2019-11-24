@@ -14,7 +14,7 @@ import java.util.*;
 public class PageExtractor {
     private static final Map<String, SectionExtractor> sectionExtractors = getSectionExtractors();
     
-    private boolean hasPOSSection = false;
+    private boolean hasKnownSection = false;
     
     public void extract(Model model, Page page) {
         Resource resource = ModelUtils.createNewResourceWithLabel(model, page.getTitle(), null, page.getTitle());
@@ -24,7 +24,7 @@ public class PageExtractor {
         extractPageSections(model, resource, page);
         
         // if page doesn't have a single recognized POS section, remove page resources from RDF model
-        if (!hasPOSSection) {
+        if (!hasKnownSection) {
             model.removeAll(resource, null, null);
         }
     }
@@ -39,7 +39,7 @@ public class PageExtractor {
             String thirdLevelTitle = TextUtils.getSectionTitle(section, 3);
             
             if (PartOfSpeech.getEnum(thirdLevelTitle) != null) {
-                hasPOSSection = true;
+                hasKnownSection = true;
             }
             
             SectionExtractor chosenSectionExtractor = sectionExtractors.get(thirdLevelTitle);

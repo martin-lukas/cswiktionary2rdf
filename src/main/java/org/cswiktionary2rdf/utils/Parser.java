@@ -28,7 +28,7 @@ public class Parser {
         DumpHandler dumpHandler = new DumpHandler();
         SAXParser saxParser = getSAXParser();
         saxParser.parse(file, dumpHandler);
-        
+    
         return dumpHandler.pages;
     }
     
@@ -89,6 +89,7 @@ public class Parser {
             } else if (qName.equals("page")) {
                 if (isNSAllowed) {
                     String czechExtSection = getCzechAndExtSection(pageText.toString());
+                    
                     if (czechExtSection.contains("== čeština ==")) {
                         // to make it easier later for extracting the actual information
                         pages.add(new Page(pageTitle, czechExtSection));

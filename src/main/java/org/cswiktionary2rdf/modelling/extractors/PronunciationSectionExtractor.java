@@ -11,7 +11,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PronunciationSectionExtractor implements SectionExtractor {
-    
     @Override
     public void extract(Model model, Resource resource, Page page) {
         PronunciationModeller pronunciationModeller = new PronunciationModeller();

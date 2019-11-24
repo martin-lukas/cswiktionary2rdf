@@ -14,9 +14,10 @@ import java.time.LocalDateTime;
 public class CommandLineInterface {
     
     public static void main(String[] args) {
-        // for debug
         LocalDateTime start = LocalDateTime.now().withNano(0);
+        
         Task helpTask = new HelpTask();
+        
         int arglen = args.length;
         
         if (arglen == 1) {
