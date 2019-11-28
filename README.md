@@ -18,17 +18,18 @@ You can choose the format by typing
 ```<-x>/<-t>/<-n>``` 
 respectively into the format argument.
 
+The program executable is located in ```out/artifacts/```. 
 There are several possible scenarion for running this program. 
 
-They always start with ```java -jar cswiktionary2rdf.jar```
+They always start with 
 1. Download the dump file from the internet into default download directory:
-   - ```-d```
+   - ```java -jar cswiktionary2rdf.jar -d```
 
 2. Download the dump file into a specified directory:
-   - ```-d <dir path>```
+   - ```java -jar cswiktionary2rdf.jar -d <dir path>```
 
 3. Extract a specified dump file into a specified output file:
-   - ```-e <format> <dump file> <output file>```
+   - ```java -jar cswiktionary2rdf.jar -e <format> <dump file> <output file>```
 
 Example of the execution:
 
