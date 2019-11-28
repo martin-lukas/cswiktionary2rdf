@@ -1,9 +1,9 @@
 package org.cswiktionary2rdf.utils;
 
 public enum RdfFormat {
-    RDF_XML("rdf/xml"),
-    TURTLE("turtle"),
-    N_TRIPLES("n-triples");
+    RDF_XML("RDF/XML"),
+    TURTLE("TURTLE"),
+    N_TRIPLES("N-TRIPLES");
     
     private String formatName;
     

@@ -20,7 +20,7 @@ respectively into the format argument.
 
 There are several possible scenarion for running this program. 
 
-They always start with ```cswiktionary2rdf.jar -jar```
+They always start with ```java -jar cswiktionary2rdf.jar```
 1. Download the dump file from the internet into default download directory:
    - ```-d```
 
@@ -32,7 +32,7 @@ They always start with ```cswiktionary2rdf.jar -jar```
 
 Example of the execution:
 
-* ```cswiktionary2rdf.jar -jar -e -t dump.xml output.ttl```
+* ```java -jar cswiktionary2rdf.jar -e -t dump.xml output.ttl```
 
 For viewing this help again, use the parameter ```-h```.
 

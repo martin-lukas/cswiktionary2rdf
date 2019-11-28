@@ -13,10 +13,11 @@ public class Downloader {
         String archiveUrl = archive.getArchiveUrl();
         // save file has the same name as the archive, except the file extension
         File saveFile = prepareSaveFile(downloadDir + "\\" + archiveUrl.substring(archiveUrl.lastIndexOf("/") + 1));
+        FileOutputStream fileOutputStream = null;
         try {
             URL url = new URL(archive.getArchiveUrl());
             ReadableByteChannel readableByteChannel = Channels.newChannel(url.openStream());
-            FileOutputStream fileOutputStream = new FileOutputStream(saveFile);
+            fileOutputStream = new FileOutputStream(saveFile);
             fileOutputStream.getChannel()
                     .transferFrom(readableByteChannel, 0, Long.MAX_VALUE);
         } catch (MalformedURLException e) {
@@ -25,8 +26,11 @@ public class Downloader {
         } catch (IOException e) {
             System.err.println("There was a problem during the download of the dump file.");
             e.printStackTrace();
+        } finally {
+            if (fileOutputStream != null) {
+                fileOutputStream.close();
+            }
         }
-    
         return (isChecksumValid(saveFile, archive.getCorrectChecksum())) ? saveFile : null;
     }
     
