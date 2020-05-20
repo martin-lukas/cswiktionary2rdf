@@ -48,9 +48,7 @@ from the Czech DBpedia (through rdfs:seeAlso links generated from External Links
 - search any word from Wiktionary pages, and get structured RDF data as a result
 
 The third bullet point has been partially implemented in a web app
-"Enhanced Wiktionary Search Engine", which you can find at
-
-https://martin-lukas.github.io/cswiktionary2rdf-search (in Czech)
+[Enhanced Wiktionary Search Engine](https://martin-lukas.github.io/cswiktionary2rdf-search) (in Czech)
 
 It lists all the pages where the desired word form appears, and if it 
 appeared in one of the tables of inflected forms, it also gives a 
